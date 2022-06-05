@@ -68,8 +68,8 @@ while True:
             print("Votre liste ne contient aucun élément.")
         else:
             print(f"Voici le contenu de votre liste : ")
-        for i, element in enumerate(final_lst,1):
-            print(f"{i}. {element.capitalize()}")
+            for i, element in enumerate(final_lst,1):
+                print(f"{i}. {element.capitalize()}")
             
         
     elif user_choice == "4":
