@@ -72,6 +72,6 @@ while True:
             print(f"{i}. {element.capitalize()}")
             
         
-     elif user_choice == "4":
+    elif user_choice == "4":
         final_lst.clear()
         print("La liste a été vidée de son contenu.")
